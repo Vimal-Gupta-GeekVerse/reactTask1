@@ -1,10 +1,11 @@
-import HeroCard from '../components/HeroCard';
+// import HeroCard from '../components/HeroCard';
+import Comments from '../components/Comments';
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      {/* This checks if Tailwind is working by centering everything on a gray background */}
-      <HeroCard />
+    <div className="min-h-screen bg-gray-50">
+      {/* <HeroCard /> */}
+      <Comments/>
     </div>
   );
 }
