@@ -13,7 +13,7 @@ node_modules/
 .pnp.js
 
 # Production Build
-dist
+# dist
 dist-ssr
 *.local
 
